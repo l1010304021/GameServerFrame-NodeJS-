@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27825.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NodeServer", "NodeServer.njsproj", "{81121B4F-E498-43B8-996C-6AE74C4FB2FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81121B4F-E498-43B8-996C-6AE74C4FB2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81121B4F-E498-43B8-996C-6AE74C4FB2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81121B4F-E498-43B8-996C-6AE74C4FB2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81121B4F-E498-43B8-996C-6AE74C4FB2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05615E63-0FCC-427C-A516-3079A017A6BB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+﻿{
+  "ServerConfig": {
+    "sName": "中心服务器",
+    "sServiceAddr": "127.0.0.1",
+    "nServicePort": 7100,
+    "nMaxConnection": 1000
+  },
+  "HeartBeatTimeout": 30,
+  "HeartBeatInterval": 5,
+  "SQLConfig": {
+    "DBInfo": {
+      "user": "sa",
+      "password": "Test789456123",
+      "server": "localhost",
+      "database": "GameDB",
+      "port": 1433,
+      "options": {
+        "encrypt": false
+      },
+      "pool": {
+        "min": 5,
+        "max": 5,
+        "idleTimeoutMillis": 15000
+      }
+    },
+    "ContextCount": 1
+  },
+  "MatchingConfig": {
+    "matchingRules": [
+      {
+        "nEnterGoldMin": 500,
+        "nEnterGoldMax": 50000,
+        "nCustomRule": 257,
+        "nCellScore": 20
+      },
+      {
+        "nEnterGoldMin": 1000,
+        "nEnterGoldMax": 100000,
+        "nCustomRule": 257,
+        "nCellScore": 50
+      },
+      {
+        "nEnterGoldMin": 8000,
+        "nEnterGoldMax": 0,
+        "nCustomRule": 257,
+        "nCellScore": 300
+      },
+      {
+        "nEnterGoldMin": 20000,
+        "nEnterGoldMax": 0,
+        "nCustomRule": 257,
+        "nCellScore": 1000
+      },
+      {
+        "nEnterGoldMin": 100000,
+        "nEnterGoldMax": 0,
+        "nCustomRule": 257,
+        "nCellScore": 5000
+      }
+    ]
+  }
+}

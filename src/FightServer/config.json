@@ -1,0 +1,20 @@
+﻿{
+  "ServerConfig": {
+    "sName": "战斗服务器",
+    "sServiceAddr": "::",
+    "nServicePort": 8000,
+    "nMaxConnection": 1000,
+
+    "sCenterServerAddr": "127.0.0.1",
+    "nCenterServerPort": 7100,
+
+    "nServerId": 1,
+
+    "nGameKind": 1,
+    "nSceneCount": 1000
+  },
+  "HeartBeatTimeout": 30,
+  "HeartBeatInterval": 5,
+  "SSLKey": null,
+  "SSLCert": null
+}

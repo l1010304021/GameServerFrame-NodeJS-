@@ -1,0 +1,19 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "NodeServer",
+  "main": "./src/app.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/mssql": "^4.0.9",
+    "@types/node": "^10.5.5",
+    "@types/ws": "^5.1.2"
+  },
+  "dependencies": {
+    "mssql": "^4.1.0",
+    "tedious": "^2.6.4",
+    "ws": "^5.2.2"
+  }
+}

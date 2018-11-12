@@ -1,0 +1,18 @@
+﻿{
+  "ServerConfig": {
+    "sName": "网关服务器",
+    "sServiceAddr": "::",
+    "nServicePort": 7000,
+    "nMaxConnection": 1000,
+
+    "sCenterServerAddr": "127.0.0.1",
+    "nCenterServerPort": 7100,
+
+    "nServerId": 1,
+    "sSecretKey": "testskeys"
+  },
+  "HeartBeatTimeout": 30,
+  "HeartBeatInterval": 5,
+  "SSLKey": null,
+  "SSLCert": null
+}
